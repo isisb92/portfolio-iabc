@@ -1,0 +1,103 @@
+:root {
+  --primary-color: #d1e3d0;
+  --secondary-color: #21825c;
+  --third-color: #e7f0e7;
+  --box-shadow: 5px 10px 30px rgb(0, 0, 0, 0.2);
+}
+
+body {
+  margin-top: 60px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--third-color);
+  padding: 20px;
+  margin: 15px;
+  border-radius: 4px;
+}
+
+.about {
+  background: var(--third-color);
+  color: var(--secondary-color);
+}
+
+.contact {
+  color: var(--secondary-color);
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2,
+h3 {
+  opacity: 75%;
+}
+
+h5 {
+  font-weight: lighter;
+}
+.contact {
+  color: var(--primary-color);
+  opacity: 100;
+  margin-top: 15px;
+}
+
+.about-paragraphs {
+  display: flex;
+  margin: 15px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+  background-color: var(--third-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+img {
+  display: block;
+}
+
+.back-home {
+  color: var(--secondary-color);
+  text-decoration: none;
+  text-align: center;
+}
+
+.items .nav-link{
+  color: var(--secondary-color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+font-weight: bold !important;
+color: var(--secondary-color) !important;
+
+}
+.btn-color {
+  background: var(--third-color) !important;
+  border: var(--third-color) !important;
+  color: var(--secondary-color) !important;
+  box-shadow: var(--box-shadow);
+}
+.navbar-logo {
+  width: 130px;
+}
