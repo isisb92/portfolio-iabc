@@ -135,3 +135,7 @@ color: black !important;
 .portrait {
   max-width: 80% !important;
 }
+
+.project-bar {
+  padding-bottom: 15px;
+}
